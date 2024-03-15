@@ -4,8 +4,8 @@ This repository contains two Python scripts for some basic cryptographic operati
 
 ## Scripts
 
-1. **new-gen-keys.py**: Generates a new ECDSA key pair (private and public keys) using the SECP256k1 curve, commonly used in Bitcoin.
-2. **sign_string.py**: Signs a given string (challenge) with a provided ECDSA private key and outputs the signature.
+1. **generate_fresh_keys.py**: Generates a new ECDSA key pair (private and public keys) using the SECP256k1 curve, commonly used in Bitcoin.
+2. **sign_challenge.py**: Signs a given string (challenge) with a provided ECDSA private key and outputs the signature. (if you're here from the ECDSA login demo, then this is the 'challenge issued by the server when you login)
 
 ## Requirements
 
